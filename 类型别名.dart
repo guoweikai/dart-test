@@ -11,4 +11,6 @@
 // 创建一个类型别名
 typedef MyFunction = void Function(int);
 
+void aa() {}
+
 void main() {}

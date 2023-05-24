@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-05-23 17:10:51
- * @LastEditTime: 2023-05-23 17:35:07
+ * @LastEditTime: 2023-05-24 14:01:55
  * @LastEditors: localhost
  * @Description: In User Settings Edit
  * @FilePath: /dart/对象/对象 1.dart
@@ -33,7 +33,10 @@ class Persion {
 }
 
 void main() {
+  // 可以加 new 也可以不用加 new
   Persion p1 = new Persion();
   p1.getInfo();
   print('p1----$p1');
+  Persion p2 = Persion();
+  print('p2----$p2');
 }
