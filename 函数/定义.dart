@@ -1,41 +1,40 @@
 /*
  * @Author: your name
  * @Date: 2023-05-23 10:32:45
- * @LastEditTime: 2023-05-23 11:33:12
+ * @LastEditTime: 2023-05-25 10:46:47
  * @LastEditors: localhost
  * @Description: In User Settings Edit
  * @FilePath: /dart/函数/函数的定义.dart
  */
 
 /**
- * 
- * 内置方法/函数;
- * print()
- * 自定义方法:
- *  返回类型 方法名称(参数 1,参数 2,...){
- *  方法体
- *  return 返回值
- * }
- * 作用域 , 全局作用域,局部作用域
+ *   函数的定义的方式:  函数定义 匿名函数  箭头函数
  */
 
-// 函数定义的几种方式
+// 1.函数定义
 void printInfo() {
   print('我是一个定义方法');
 }
 
-List getList() {
-  return [1, 2, 3];
+// 函数定义 省略 void
+printInfo1() {
+  print('我是一个定义方法1');
+}
+
+// 匿名函数
+var f2 = () {
+  print("我是匿名函数2");
+};
+
+void f1(f2) {
+  f2();
 }
 
 void main() {
-  print('调用系统内置的方法');
   printInfo();
-  int getNum() {
-    var myNum = 123;
-    return myNum;
-  }
 
-  var n = getNum();
-  print(n);
+  f1(() {
+    print('我是匿名函数1');
+  });
+  f1(f2);
 }

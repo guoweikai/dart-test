@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-05-23 17:10:51
- * @LastEditTime: 2023-05-24 14:01:55
+ * @LastEditTime: 2023-05-24 15:14:48
  * @LastEditors: localhost
  * @Description: In User Settings Edit
  * @FilePath: /dart/对象/对象 1.dart
@@ -13,9 +13,6 @@
 
   Dart 是一门使用类和单继承的面向对象语言,所有的对象都是类的实例,并且所有的类都是 Object 的子类
   一个类通常由属性和方法组成
-
-  构造函数:// 默认构造函数, 命名构造函数
-
   get  set 
 */
 
